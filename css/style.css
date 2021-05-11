@@ -1,0 +1,183 @@
+        /* we support only 1080X1920 screen */
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: lighter;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+
+        @font-face {
+            font-family: "BebasNeue-Regular";
+            src: url("../font/BebasNeue-Regular.ttf");
+        }
+
+        .main_container {
+            width: 100%;
+            height: 100%;
+        }
+
+        #watch_face {
+            width: 1920px;
+            height: 1080px;
+            object-fit: cover;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .content {
+            width: calc(100% - 200px);
+            height: calc(100% - 200px);
+            /* background-color: rgba(255, 255, 255, 0.267); */
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .username {
+            width: calc(100vh - 200px);
+            height: calc(100vh - 200px);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%) rotate(-90deg);
+        }
+
+        #username {
+            font-size: 250px;
+            line-height: 200px;
+            color: #D6DCDA;
+            font-family: "bebasneue-regular";
+            opacity: .25;
+        }
+
+        .date-container {
+            position: absolute;
+            right: 0%;
+            bottom: -28px;
+            font-size: 96px;
+            text-align: right;
+        }
+
+        #day {
+            font-weight: bold;
+            color: #000000;
+        }
+
+        #date {
+            font-family: "bebasneue-regular";
+            color: #D6DCDA;
+            text-shadow: 0 10px 10px #00000040;
+        }
+
+        .weather-container {
+            position: absolute;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        #weather-container_icon {
+            height: 80px;
+        }
+
+        #address {
+            font-size: 24px;
+            padding: 0 10px;
+        }
+
+        #tem,
+        #c_f, #deg_icon {
+            font-size: 48px;
+            color: #6A503A;
+            text-shadow: 0 10px 10px #00000040;
+        }
+
+        .dial {
+            width: 470px;
+            height: 470px;
+            /* background-color: rgba(255, 0, 0, 0.322); */
+            border-radius: 50%;
+            position: absolute;
+            left: calc(50% - 220px);
+            top: calc(50% - 228px);
+        }
+
+        .nibs {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            position: relative;
+            transform: rotate(-5deg);
+        }
+
+        #nib_01 {
+            width: 10px;
+            height: 235px;
+            position: absolute;
+            left: calc(50% - 5px);
+            transform-origin: bottom;
+        }
+
+        #nib_01 svg {
+            width: 16px;
+            height: 100%;
+            margin-top: 80px;
+            position: inherit;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #nib_02 {
+            width: 10px;
+            height: 235px;
+            position: absolute;
+            left: calc(50% - 5px);
+            transform-origin: bottom;
+        }
+        
+        #nib_02 svg {
+            width: 16px;
+            height: 110%;
+            margin-top: 85px;
+            position: inherit;
+            left: 50%;
+            transform: translateX(-50%) scale(.8);
+        }
+
+        #nib_03 {
+            width: 10px;
+            height: 235px;
+            position: absolute;
+            left: calc(50% - 5px);
+            transform-origin: bottom;
+        }
+
+        #nib_03 svg {
+            width: 16px;
+            height: 125%;
+            position: inherit;
+            bottom: -85px;
+            left: 50%;
+            transform: translateX(-50%) scale(.8);
+        }
+
+        #screw {
+            width: 30px;
+            height: 30px;
+            background-color: #6a503a;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+        }

@@ -1,0 +1,119 @@
+{
+    "name": {
+        "text": "Name",
+        "type": "textbox",
+        "value": "Omega"
+    },
+    "appid": {
+        "text": "Apikey",
+        "type": "textbox",
+        "value": "openweather.org key"
+    },
+    "address": {
+        "text": "Location",
+        "type": "textbox",
+        "value": "City, Country, Pin, Zip"
+    },
+    "unit": {
+        "type": "dropdown",
+        "value": 0,
+        "text": "Unit",
+        "items": [
+            "Metric",
+            "Imperial"
+        ]
+    },
+    "username": {
+        "max": 1000,
+        "min": 0,
+        "value": 250,
+        "tick": 50,
+        "type": "slider",
+        "text": "Username"
+    },
+    "day": {
+        "max": 500,
+        "min": 0,
+        "value": 96,
+        "tick": 50,
+        "type": "slider",
+        "text": "Day"
+    },
+    "date": {
+        "max": 500,
+        "min": 0,
+        "value": 96,
+        "tick": 50,
+        "type": "slider",
+        "text": "Date"
+    },
+    "location": {
+        "max": 100,
+        "min": 0,
+        "value": 24,
+        "tick": 50,
+        "type": "slider",
+        "text": "Location"
+    },
+    "temp": {
+        "max": 100,
+        "min": 0,
+        "value": 48,
+        "tick": 50,
+        "type": "slider",
+        "text": "Temprature"
+    },
+    "icon": {
+        "max": 200,
+        "min": 0,
+        "value": 80,
+        "tick": 50,
+        "type": "slider",
+        "text": "Icon"
+    },
+    "usernameColor": {
+        "text": "Username Color",
+        "type": "color",
+        "value": "#D6DCDA"
+    },
+    "dayColor": {
+        "text": "Day Color",
+        "type": "color",
+        "value": "#000000"
+    },
+    "dateShadowColor": {
+        "text": "Date Shadow Color",
+        "type": "color",
+        "value": "#00000040"
+    },
+    "dateColor": {
+        "text": "Date Color",
+        "type": "color",
+        "value": "#D6DCDA"
+    },
+    "locationColor": {
+        "text": "Location Color",
+        "type": "color",
+        "value": "#000000"
+    },
+    "tempColor": {
+        "text": "Temprature Color",
+        "type": "color",
+        "value": "#6A503A"
+    },
+    "second": {
+        "type": "checkbox",
+        "value": true,
+        "text": "Second"
+    },
+    "weather": {
+        "type": "checkbox",
+        "value": true,
+        "text": "Weather"
+    },
+    "btnRefresh": {
+        "text": "Click to Update",
+        "type": "button",
+        "value": "Refresh"
+    },
+}
