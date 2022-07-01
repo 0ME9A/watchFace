@@ -4,7 +4,8 @@ Personalize your desktop with watch_face_01 using lively wallpaper [here](https:
 A lot of customization available to make it your own.
 
 
-https://user-images.githubusercontent.com/83957658/163275179-b2246266-9087-4e6c-b5c4-d3a316fec26d.mp4
+![Hnet-image](https://user-images.githubusercontent.com/83957658/176820453-335930d3-de56-48dd-8ca2-ccaa127df78e.gif)
+
 
 
 To use this customizable clock download LIVELY software at [lively](https://rocksdanister.github.io/lively/)<br>
