@@ -1,9 +1,12 @@
+![Hnet-image](https://user-images.githubusercontent.com/83957658/176821164-84fed87f-11f6-4060-9dc2-f874a85cd502.gif)
 <header>
   <h2>Watch_face_01</h2>
   <h5>customizable clock wallpaper for desktop.</h5>
 </header>
+
 <figure>
   <img src='https://user-images.githubusercontent.com/83957658/171794623-99ac76f8-7264-4a80-af62-3e4815c08547.jpeg' alt="project preview image"/>
+  
 </figure>
 <br/>
 <div className='article-text'>
