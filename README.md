@@ -18,7 +18,7 @@ To use this customizable clock download LIVELY software first [Here](https://roc
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
-- [Weather setup](#weather)
+- [Weather setup](#weather-setup)
 - [Author](#author)
 
 ## Overview
